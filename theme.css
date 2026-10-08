@@ -394,7 +394,9 @@ body.xc-focus-mode .markdown-source-view.mod-cm6 .cm-selectionBackground { opaci
 body.xc-focus-mode .workspace-ribbon,
 body.xc-focus-mode .status-bar { opacity: .42; transition: opacity 150ms ease; }
 body.xc-focus-mode .workspace-ribbon:hover,
-body.xc-focus-mode .status-bar:hover { opacity: 1; }
+body.xc-focus-mode .workspace-ribbon:focus-within,
+body.xc-focus-mode .status-bar:hover,
+body.xc-focus-mode .status-bar:focus-within { opacity: 1; }
 
 /* document identity */
 .inline-title {
